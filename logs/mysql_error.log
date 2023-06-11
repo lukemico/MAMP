@@ -1,0 +1,40 @@
+2023-06-11T23:30:25.6NZ mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error.log'.
+2023-06-11T23:30:25.6NZ mysqld_safe Starting mysqld daemon with databases from /Library/Application Support/appsolute/MAMP PRO/db/mysql57
+2023-06-11T23:30:26.080120Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2023-06-11T23:30:26.080511Z 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.7.39) starting as process 39403 ...
+2023-06-11T23:30:26.085818Z 0 [Warning] Setting lower_case_table_names=2 because file system for /Library/Application Support/appsolute/MAMP PRO/db/mysql57/ is case insensitive
+2023-06-11T23:30:26.090093Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2023-06-11T23:30:26.090126Z 0 [Note] InnoDB: Uses event mutexes
+2023-06-11T23:30:26.090136Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2023-06-11T23:30:26.090145Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-06-11T23:30:26.090195Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2023-06-11T23:30:26.090726Z 0 [Note] InnoDB: Number of pools: 1
+2023-06-11T23:30:26.091099Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2023-06-11T23:30:26.092447Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2023-06-11T23:30:26.100929Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-06-11T23:30:26.118614Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-06-11T23:30:26.174395Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-06-11T23:30:26.174544Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-06-11T23:30:26.198385Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-06-11T23:30:26.199080Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2023-06-11T23:30:26.199099Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2023-06-11T23:30:26.199475Z 0 [Note] InnoDB: Waiting for purge to start
+2023-06-11T23:30:26.250253Z 0 [Note] InnoDB: 5.7.39 started; log sequence number 2551369
+2023-06-11T23:30:26.250456Z 0 [Note] InnoDB: Loading buffer pool(s) from /Library/Application Support/appsolute/MAMP PRO/db/mysql57/ib_buffer_pool
+2023-06-11T23:30:26.250613Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2023-06-11T23:30:26.253782Z 0 [Note] InnoDB: Buffer pool(s) load completed at 230612  9:30:26
+2023-06-11T23:30:26.256609Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2023-06-11T23:30:26.256653Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2023-06-11T23:30:26.571806Z 0 [Note] Auto generated SSL certificates are placed in data directory.
+2023-06-11T23:30:26.571898Z 0 [Warning] A deprecated TLS version TLSv1 is enabled. Please use TLSv1.2 or higher.
+2023-06-11T23:30:26.571908Z 0 [Warning] A deprecated TLS version TLSv1.1 is enabled. Please use TLSv1.2 or higher.
+2023-06-11T23:30:26.573255Z 0 [Warning] CA certificate ca.pem is self signed.
+2023-06-11T23:30:26.648711Z 0 [Note] Auto generated RSA key files are placed in data directory.
+2023-06-11T23:30:26.651094Z 0 [Warning] Insecure configuration for --pid-file: Location '/Applications/MAMP/tmp' in the path is accessible to all OS users. Consider choosing a different directory.
+2023-06-11T23:30:26.657394Z 0 [Note] Failed to start slave threads for channel ''
+2023-06-11T23:30:26.665215Z 0 [Warning] Optional native table 'performance_schema'.'processlist' has the wrong structure or is missing.
+2023-06-11T23:30:26.666038Z 0 [Note] Event Scheduler: Loaded 0 events
+2023-06-11T23:30:26.666197Z 0 [Note] /Applications/MAMP/Library/bin/mysqld: ready for connections.
+Version: '5.7.39'  socket: '/Applications/MAMP/tmp/mysql/mysql.sock'  port: 0  MySQL Community Server (GPL)
+2023-06-11T23:30:29.122201Z 12 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2023-06-11T23:30:29.122240Z 12 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
